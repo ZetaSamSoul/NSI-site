@@ -29,8 +29,8 @@ body {
 	display: flex;
 	border: black;
 	border-style: solid;
-	width: 400;
-	height: 155;
+	width: 500;
+	height: 150;
 }
 .petitcarre {
 	display: flex;
