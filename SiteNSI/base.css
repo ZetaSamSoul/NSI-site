@@ -6,10 +6,14 @@ body {
 .centre {
 	display: flex;
 	justify-content: center;
+	border: black;
+	border-style: solid;
 }
 .droite {
 	display: flex;
 	justify-content: flex-end;
+	border: black;
+	border-style: solid;
 }
 
 .base {
