@@ -30,5 +30,12 @@ body {
 	border: black;
 	border-style: solid;
 	width: 500;
-	height: 200;
+	height: 150;
+}
+.petitcarre {
+	display: flex;
+	border: black;
+	border-style: solid;
+	width: 250;
+	height: 75;
 }
