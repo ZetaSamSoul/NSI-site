@@ -29,4 +29,6 @@ body {
 	display: flex;
 	border: black;
 	border-style: solid;
+	width: 500;
+	height: 200;
 }
