@@ -8,9 +8,12 @@ body {
 	display: flex;
 	justify-content: space-around;
 	margin: 1em;
+	border: black;
+	border-style: solid;
 	
 }
 .carre {
 	display: flex;
-	
+	border: black;
+	border-style: solid;
 }
