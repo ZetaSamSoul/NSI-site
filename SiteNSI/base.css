@@ -42,3 +42,6 @@ body {
 .fit {
 	object-fit: fill;
 }
+.shape {
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%);
+}
