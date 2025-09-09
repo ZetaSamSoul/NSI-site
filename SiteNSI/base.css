@@ -2,12 +2,11 @@ body {
 	background-color: #fff;
 	overflow: auto;
 	width: 100%;
+	background: linear-gradient(#5F00FF, #00FFFF);;
 }
 .centre {
 	display: flex;
 	justify-content: center;
-	border: black;
-	border-style: solid;
 }
 .droite {
 	display: flex;
@@ -15,6 +14,10 @@ body {
 	border: black;
 	border-style: solid;
 	margin: 1em;
+	box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+	border-radius: 30px;
 }
 
 .base {
@@ -23,7 +26,12 @@ body {
 	margin: 1em;
 	border: black;
 	border-style: solid;
-	
+	object-fit: fill;
+	background-color: white;
+	box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+	border-radius: 30px;
 }
 .carre {
 	display: flex;
@@ -31,6 +39,13 @@ body {
 	border-style: solid;
 	width: 500;
 	height: 150;
+	clip-path: polygon(0 0, 100% 0, 0 100%);
+	object-fit: fill;
+	background-color: white;
+	border-radius: 30px;
+	box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
 }
 .petitcarre {
 	display: flex;
@@ -38,10 +53,26 @@ body {
 	border-style: solid;
 	width: 250;
 	height: 75;
+	box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+	border-radius: 30px;
+	background-color: #fff;
 }
-.fit {
-	object-fit: fill;
-}
+
 .shape {
 	clip-path: polygon(50% 0%, 100% 50%, 50% 100%);
+}
+
+.text{
+	transform: rotate(345deg);
+	font-size: 1.2rem;
+
+}
+.base1 {
+	display: flex;
+	justify-content: space-around;
+	margin: 1em;
+	object-fit: fill;
+
 }
