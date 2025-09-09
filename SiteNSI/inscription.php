@@ -11,7 +11,10 @@
 
 <body class="body2">
 
-<h1>test</h1>
+<label for="name">Nom</label><input type="text" name="name" required size="10" class="text1"/><br>
+<label for="prenom">Prénom</label><input type="text" name="prenom" required size="10" class="text1" /><br>
+<label for="pseudo">Pseudo (Entre 4 et 10 charcteres)</label><input type="text" name="Pseudo" required size="10" class="text1" /><br>
+
 
 
 </body>

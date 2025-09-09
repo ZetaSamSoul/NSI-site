@@ -115,3 +115,11 @@ button {
 	margin: 1em;
 	border-radius: 30px;
 }
+.text2 {
+	font-size: 7rem;
+	text-align: center;
+}
+.text1 {
+	font-size: 2rem;
+	text-align: center;
+}
