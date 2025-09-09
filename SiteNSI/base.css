@@ -2,7 +2,16 @@ body {
 	background-color: #fff;
 	overflow: auto;
 	width: 100%;
-	background: linear-gradient(#5F00FF, #00FFFF);;
+	background: linear-gradient(#5F00FF, #00FFFF);
+
+}
+.body2 {
+	background-color: #fff;
+	overflow: auto;
+	width: 100%;
+	background: linear-gradient(#5F00FF, #00FFFF);
+	height: 100%;
+
 }
 .centre {
 	display: flex;
@@ -58,6 +67,7 @@ body {
     inset -2px -2px 3px rgb(0 0 0 / 60%);
 	border-radius: 30px;
 	background-color: #fff;
+	text-align: center;
 }
 
 .shape {
@@ -75,4 +85,33 @@ body {
 	margin: 1em;
 	object-fit: fill;
 
+}
+button {
+	border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+	width: 150px;
+	height: 100px;
+	border-radius: 30px;
+	box-shadow: 
+	inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+.haut {
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	border: black;
+	border-style: solid;
+	object-fit: fill;
+	background-color: white;
+	box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+	border-radius: 30px;
+}
+.haut2 {
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	border-radius: 30px;
 }
